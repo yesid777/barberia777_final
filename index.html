@@ -1,0 +1,124 @@
+<!DOCTYPE html><!-- referenca a HTML5-->
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="utf-8"><!-- Diccionario utilizado en la pagina-->
+
+        <!--configuracion para que se ajustre a tamaño de pantalla de celular-->
+        <meta name="viewport" content="width=device-width">
+
+        <!-- title: crea un titulo que se ve en el navegador - h1: crear un encabezado - heder -->
+        <title>La Barbería Yesid777</title>
+
+        <!-- Aqui se confugurara el css para cada etiqueta(con las etiquetas style)
+        <style>
+            p{
+              text-align: center;  
+            }
+        </style>
+        -->
+
+        <!-- Llamar el css desde una archivo o documento css externo -->
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <!--IMPORTANDO UNA FUENTE O TIPO DE LETRA EXTERNA-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <!--ENCABEZADO DE LA PAGINA*-->
+        <header>
+
+            <div class="caja">
+
+                <h1><img src="imagenes/logo.png"></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </header>
+
+        <!-- IMPORTANDO LA IMAGEN-->
+        <img id ="banner" class="banner" src="banner/banner.jpg">
+
+        <main>
+
+            <section class="principal">
+
+                <!-- Utilizando la etiqueta style agregamos ccs a html ejmp style="font-size: 20px; aumenta el tamaño a 20px-->                
+                <h2 class="titulo-principal">Sobre la Barbería Yesid777</h2>
+
+                <img class="utensilios" src="imagenes/utensilios.jpg" alt="Imagen con utensilios de Barbería">
+
+                <!-- p: parrafo, strong: negrita -->
+                <p>Ubicada en el corazón de la ciudad, la <strong>Barberia Yesid777</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Yesid77 ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p> 
+    
+                <!-- em: enfasis, poner en cursiva (emphasis)-->
+                <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes".</strong></em></p>
+    
+                <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes. </p>
+    
+            </section>
+
+            <section class="mapa">
+                <h3 class="titulo-principal">Nuestra Ubicación</h3>
+                <p>Nuestro establecimento se encuntra ubicado en el centro de la ciudad de Barranquilla</p>
+
+                <div class="mapa-contenido">
+                    <!--LLAMAMOS EL MAPA DESDE GOOGLEMAPS-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.9644067209165!2d-74.82616109999996!3d11.041295499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42de3097b00af%3A0x59807a443e703bd!2sel%20Ni%C3%B1o%20Barber%20Shop!5e0!3m2!1ses-419!2sco!4v1707155216690!5m2!1ses-419!2sco" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+                
+
+            </section>
+    
+            <section class="diferenciales">
+    
+                <h3 class="titulo-principal">Diferenciales</h3>
+
+                <div class="contenido-diferenciales">
+                    <!-- LISTA NO ORDENADA-->
+                    <ul class="lista-diferenciales">
+                        <li class="items">Atención personalizada a los Clientes</li>
+                        <li class="items">Espacio Diferenciado</li>
+                        <li class="items">Localización</li>
+                        <li class="items">Profesionales Calificados</li>
+                        <li class="items">Puntualidad</li>
+                        <li class="items">Limpieza</li>
+                    </ul><img src="diferenciales/diferenciales.jpg" class="imagen-diferenciales">
+
+                </div>
+
+                <div class="video">
+                    <!--VIDEO IMPORTYADOP DE YOUTUBE-->
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY?si=RUfl3YK7AtlLFv0B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+                </div>
+                
+                
+            </section>  
+
+        </main>
+       
+        <footer>
+            <img src="imagenes/logo-blanco.png">
+            <p class="copyrght">&copy Copyrght Barbería Yesid777</p><!--&copy genera el caracer especial de Copyrght-->
+        </footer>
+        
+
+    </body>
+
+</html>
